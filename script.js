@@ -75,5 +75,13 @@ document.getElementById('buttonClearCart').addEventListener('click', (event) => 
     element_displayTotalPrice2.replaceChildren();
     let element_listItems2 = document.getElementById('listItems');
     element_listItems2.replaceChildren();
+    while (!!arrayTotalPrice.length) {
+        if (--window.LoopTrap <= 0) throw "Infinite loop.";
+        arrayTotalPrice.shift();
+    }
+    while (!!arrayQuantityItems.length) {
+        if (--window.LoopTrap <= 0) throw "Infinite loop.";
+        arrayQuantityItems.shift();
+    }
 
 });
