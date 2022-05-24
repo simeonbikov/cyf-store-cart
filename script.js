@@ -67,3 +67,13 @@ document.getElementById('buttonAddToCart').addEventListener('click', (event) => 
     element_listItems.appendChild(new_li);
 
 });
+
+document.getElementById('buttonClearCart').addEventListener('click', (event) => {
+    let element_displayQuantityItems2 = document.getElementById('displayQuantityItems');
+    element_displayQuantityItems2.replaceChildren();
+    let element_displayTotalPrice2 = document.getElementById('displayTotalPrice');
+    element_displayTotalPrice2.replaceChildren();
+    let element_listItems2 = document.getElementById('listItems');
+    element_listItems2.replaceChildren();
+
+});
