@@ -1,0 +1,59 @@
+body {
+    background-image: url("img/black-brick-wall.jpeg");
+}
+
+.alnright {
+    text-align: right;
+    width: 50%;
+}
+
+.alnleft {
+    text-align: left;
+    width: 50%;
+}
+
+.cart-logo {
+    background-color: #ffffff;
+    color: black;
+    text-align: right;
+}
+
+.cart {
+    background-color: #ffffff;
+    color: black;
+    text-align: left;
+}
+
+.header-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h1 {
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: "Chalkduster", fantasy;
+    color: aliceblue;
+    text-shadow: 5px 2px rgb(0, 0, 0);
+}
+
+table.GeneratedTable {
+    width: 650px;
+    border-collapse: collapse;
+    border-width: 0px;
+    border-style: solid;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+    border-width: 0px;
+    padding: 20px;
+}
